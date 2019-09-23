@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quiz.Repositories.Abstractions\Quiz.Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\Quiz.Services.Abstractions\Quiz.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

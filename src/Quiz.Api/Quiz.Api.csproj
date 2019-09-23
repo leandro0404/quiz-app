@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Quiz.Api</AssemblyName>
+    <RootNamespace>Quiz.Api</RootNamespace>
+
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <Content Remove="Questoes.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Questoes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quiz.Repositories\Quiz.Repositories.csproj" />
+    <ProjectReference Include="..\Quiz.Services\Quiz.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

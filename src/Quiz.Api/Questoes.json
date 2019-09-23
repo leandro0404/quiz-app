@@ -1,0 +1,37 @@
+﻿[
+  {
+    "pergunta": "pergunta 01",
+    "respostas": [
+      "resposta 01",
+      "resposta 02",
+      "resposta 03",
+      "resposta 04",
+      "resposta 05",
+      "resposta 06"
+    ],
+    "respostaCorreta": "resposta 02",
+    "descricaoRespostaCorreta": "",
+    "categoria": 1,
+    "dificuldade": 0,
+    "jogado": false,
+    "image": ""
+  },
+  {
+    "pergunta": "pergunta 02",
+    "respostas": [
+      "resposta 01",
+      "resposta 02",
+      "resposta 03",
+      "resposta 04",
+      "resposta 05",
+      "resposta 06"
+    ],
+    "respostaCorreta": "resposta 03",
+    "descricaoRespostaCorreta": "",
+    "categoria": 1,
+    "dificuldade": 0,
+    "jogado": false,
+    "image": ""
+  }
+
+]
