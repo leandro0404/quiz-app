@@ -1,7 +1,5 @@
 ﻿### Development  
-
-
-#### Run
+ #### Run
 ```cmd
 dotnet build
 dotnet run
@@ -13,10 +11,10 @@ Bash script
 .\alltests.sh
 ```
 
+
 **para cadastro das perguntas use o modelo abaixo no arquivo \Questoes.json**
 
 campo imagem deve estar  empty ou conter url de imagem descritiva caso precise de uma ilustração.
-
 ```
 
  {
@@ -134,4 +132,13 @@ mutation {
 ```
 
 
+
+
+
+
+![alt text](https://github.com/leandro0404/quiz-app/blob/master/images/img-01.png)
+
+![alt text](https://github.com/leandro0404/quiz-app/blob/master/images/img-02.png)
+
+![alt text](https://github.com/leandro0404/quiz-app/blob/master/images/img-03.png)
 
