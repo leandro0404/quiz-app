@@ -132,10 +132,6 @@ mutation {
 ```
 
 
-
-
-
-
 ![alt text](https://github.com/leandro0404/quiz-app/blob/master/images/img-01.png)
 
 ![alt text](https://github.com/leandro0404/quiz-app/blob/master/images/img-02.png)
